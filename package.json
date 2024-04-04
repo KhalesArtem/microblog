@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build-sass": "sass resources/sass/app.scss public/css/app.css",
+        "watch-sass": "sass --watch resources/sass/app.scss:public/css/app.css"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.2",
+        "vite": "^5.2.8"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "sass": "^1.72.0",
+        "vite-plugin-sass": "^0.1.0"
+    }
+}
